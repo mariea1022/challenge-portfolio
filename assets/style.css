@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 100%px;
+}
+
+header {
+    background-color: rgb(185, 185, 238);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h1 {
+    font-size: 24px;
+    padding-left: 8px;
+}
+
+span {
+    font-size: 16px;
+}
+
+.profile_pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+main {
+    background-color: bisque;
+    padding-left: 8px;
+}
+
+#about {
+    display: flex;
+    display: row;
+   
+}
+
+#about h2 {
+    margin: 0px;
+    padding-right: 100px;
+    padding-left: 4px;
+    display: flex;
+    align-items: center;
+}
+
+h2, h3, h4, h5 {
+    font-size: 18px;
+}
+
+#projects {
+    display: flex;
+    display: row;
+}
+
+#projects h3 {
+    margin: 0px;
+    padding-right: 79px;
+    padding-left: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.projects_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 150%;
+}
+
+#first_project {
+    border: dashed;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+.title1 {
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+    border-style: double;
+    width: 90px;
+}
+
+.project2 {
+    border: dashed;
+    width: 50%;
+    height: 200px;
+    color: #FFFFFF;
+}
+
+.title2 {
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+    border-style: double;
+    width: 115px;
+}
+
+.project3 {
+    border: dashed;
+    width: 50%;
+    height: 200px;
+    color: #FFFFFF;
+}
+
+.title3 {
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+    border-style: double;
+    width: 115px;
+}
+
+.project4 {
+    border: dashed;
+    width: 50%;
+    height: 200px;
+    color: #FFFFFF;
+}
+
+.title4 {
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+    border-style: double;
+    width: 115px;
+}
+
+.project5 {
+    border: dashed;
+    width: 50%;
+    height: 200px;
+    color: #FFFFFF;
+}
+
+.title5 {
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+    border-style: double;
+    width: 115px;
+}
+
+#contact {
+    display: flex;
+    display: row;
+}
+
+#contact h4 {
+    margin: 0px;
+    padding-right: 84px;
+    padding-left: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.contact_info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    header {
+      background-color: gray;
+    }
+  }
+  
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+    .contact_info {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
