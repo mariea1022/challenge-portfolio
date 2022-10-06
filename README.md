@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is the first attempt of my portfolio page, which will be helpful in showing potential employers my skills as a web developer. It includes information about me, some of my previos projects from boot camp and my contact information.
+This project is the first attempt of my portfolio page, which will be helpful in showing potential employers my skills as a web developer. It includes information about me, some of my previous projects from boot camp and my contact information.
 
 Through this project, I was able to apply more advanced CSS skills.
 
@@ -17,7 +17,7 @@ N/A
 Once in my portfolio, to view my previous work/deployed applications, click on the images in the project boxes.
 
 Below is the image of the website's landing page.
-![website portfolio page image](portfolio-challenge/assets/screenshot_portfolio_page.png)
+![website portfolio page image](https://github.com/mariea1022/portfolio-challenge/blob/main/assets/screenshot_portfolio_page.png?raw=true)
 
 
 ## Credits
