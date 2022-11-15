@@ -17,7 +17,7 @@ N/A
 Once in my portfolio, to view my previous work/deployed applications, click on the images in the project boxes.
 
 Below is the image of the website's landing page.
-![website portfolio page image](https://github.com/mariea1022/portfolio-challenge/blob/main/assets/screenshot_portfolio_page.png?raw=true)
+![website portfolio page image](assets/updated-portfolio.png)
 
 
 ## Credits
